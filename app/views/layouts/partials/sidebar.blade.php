@@ -25,12 +25,9 @@
    @if (Route::currentRouteName() == 'topics.index')
       
     <div class="box" id="grit">
-    <h3>Phphub++</h3>
+    <h3>FAST</h3>
     <hr />
-    <p>Howdy, <br />welcome to the Phphub++ Business Forum, 
-    thousands of opportunities await you. Rememberto
-    Observe the Forum rules when creating or positing
-    job feeds. <br /> Have A Nice Day! 
+    <p>Howdy, <br />welcome to FAST. <br /> Have A Nice Day! 
 
 
     </p>

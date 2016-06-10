@@ -1,8 +1,6 @@
 @if (isset($nodes) && count($nodes))
 <div class="panel panel-default node-panel col-md-12">
-  <div class="panel-heading">
-    <h3 class="panel-title text-center">{{ lang('Phphub++ Categories') }}</h3>
-  </div>
+
 
   <div class="panel-body remove-padding-vertically remove-padding-bottom">
   <dl class="dl-horizontal">

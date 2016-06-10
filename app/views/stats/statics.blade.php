@@ -4,7 +4,7 @@
     <p>Welcome Guest:
 @endif
 <br>
-<strong>Phphub++&nbsp;&nbsp;Stats</strong>:  <span><strong>Total Members</strong>: {{ $siteStat->user_count }}</span> |
+<strong>FAST&nbsp;&nbsp;Stats</strong>:  <span><strong>Total Members</strong>: {{ $siteStat->user_count }}</span> |
     <span> <strong>   Job Posts</strong>: {{ $siteStat->topic_count }}</span> |
      <span><strong>   Total Replies</strong>: {{ $siteStat->reply_count }} </span> |
      <span> <a href="{{URL::route('users.index')}}">View all Users</a></span>

@@ -62,7 +62,7 @@ FAST  - Forum Analisis Statistik
 	      	</div>
 	      	<div class="col-md-6">
 	      	<p class="pull-right" style="color:#fff; margin-top:45px; font-size:65%;">
-	      	  &copy; copyright  2016 <a href="http://www.">Phphub++</a>
+	      	  &copy; copyright  2016 <a href="http://www.">STIS</a>
 
 	      </p>
 	      	</div>
