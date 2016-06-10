@@ -79,12 +79,12 @@ gulp.task('js', function() {
         .pipe(gulp.dest('public/assets/js'));
 });
 
-gulp.task('build', ['css'/*, 'js'*/]);
+gulp.task('build', ['css', 'js']);
 
 gulp.task('watch', ['build'],  function(){
     gulp.watch('app/assets/sass/**/*.scss', ['css']);
     gulp.watch('app/assets/css/**/*.css', ['css']);
-    //gulp.watch('app/assets/js/**/*.js', ['js']);
+    gulp.watch('app/assets/js/**/*.js', ['js']);
 });
 
 // The default task (called when you run `gulp` from cli)
