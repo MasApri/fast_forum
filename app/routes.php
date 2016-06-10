@@ -158,6 +158,7 @@ Route::resource('nodes', 'NodesController', ['except' => ['index', 'edit']]);
 Route::resource('topics', 'TopicsController');
 Route::resource('votes', 'VotesController');
 Route::resource('users', 'UsersController');
+Route::resource('analysis', 'AnalysisController');
 
 # ------------------ Replies ------------------------
 
