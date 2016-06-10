@@ -6,7 +6,7 @@
 
 		<title>
 			@section('title')
-Phphub++  - Business Forum
+FAST-Forum Analysis Statistik
 			@show
 		</title>
 
