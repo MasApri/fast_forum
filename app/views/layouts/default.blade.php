@@ -6,15 +6,15 @@
 
 		<title>
 			@section('title')
-FAST-Forum Analysis Statistik
+FAST  - Forum Analisis Statistik
 			@show
 		</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<meta name="keywords" content="Forum, Business Forum, Opportunity, Freelancing Forum" />
-		<meta name="author" content="FrankDupree" />
-		<meta name="description" content="@section('description')Phphub++ is a business forum where great minds meet, partner and solve business challenges together  @show" />
+		<meta name="keywords" content="FAST, Forum Analisis statistik, STIS, BPS" />
+		<meta name="author" content="FAST54" />
+		<meta name="description" content="@section('description')FAST is Forum Analisis Statistik  @show" />
 
         <link rel="stylesheet" href="{{ URL::asset('assets/css/'.Asset::styles('frontend')) }}">
         <link rel="stylesheet" href="{{ URL::asset('assets/css/bootflat.min.css') }}">

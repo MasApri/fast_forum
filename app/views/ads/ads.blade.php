@@ -9,27 +9,18 @@
 <![endif]-->
 <!-- Le icon  -->
 <!-- Le styles -->
-<link rel="stylesheet" type="text/css" href="/Fast54/themes/blackboot/css/bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="/Fast54/themes/blackboot/css/bootstrap-responsive.css" />
-<link rel="stylesheet" type="text/css" href="/Fast54/themes/blackboot/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/fast_forum/themes/blackboot/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="/fast_forum/themes/blackboot/css/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="/fast_forum/themes/blackboot/css/style.css" />
 <!-- Le fav and touch icons -->
 </head>
 
 
 <div class="container">
 <div class="row">
-			<div class="span3">
-			<h3 class="heading-danger"><span class="btn btn-danger"><i class="icon-ok icon-white"></i></span>&nbsp;Why fast_backup?</h3>
-			<p>
-				Fast provides Table Generator feature as data provider, Analysis application to manage and analyze data, also Analysis Result which can be shared into Data Gallery or as a topic in Forum. 
-			</p>
-			<p>
-				Find Your Data >> Analyze >> Share >> Discuss ---> Experience Yourself!
-			</p>
-		</div>
 		<div class="span3" >
-			<div class="well well-primary box" style=" background:blue">
-				<img src="/Fast54/img/box-1-white.png" alt="" />
+			<div class="well well-primary box" style=" background-color:lightblue">
+				<img src="/fast_forum/img/box-1-white.png" alt="" />
 				<h3>Table Generator </h3>
 				<p>
 					 Table generator is a system can be used to facilitate database of strategical indicator easily and quickly. 
@@ -38,8 +29,8 @@
 			</div>
 		</div>
 		<div class="span3">
-			<div class="well well-success box">
-				<img src="/Fast54/img/box-2-white.png" alt="" />
+			<div class="well well-success box" style=" background-color:lightgreen">
+				<img src="/fast_forum/img/box-2-white.png" alt="" />
 				<h3>Analysis</h3>
 				<p>
 					 Analysis is an statistical application which can be used to analyze data. This application provides statistical tools 
@@ -48,8 +39,8 @@
 			</div>
 		</div>
 		<div class="span3">
-			<div class="well well-warning box">
-				<img src="/Fast54/img/box-3-white.png" alt="" />
+			<div class="well well-warning box" style=" background-color:yellow">
+				<img src="/fast_forum/img/box-3-white.png" alt="" />
 				<h3>Internet Forum</h3>
 				<p>
 					 Dokumentasi yang baik adalah awal dari proses yang baik. 

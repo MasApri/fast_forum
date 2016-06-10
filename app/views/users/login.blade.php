@@ -15,7 +15,7 @@
 </div>
 <div class="row">
 	<div class="col-md-12">
-    <img src="{{art() .'op.png'}}" alt="" class="img-responsive pull-left">
+    <img src="{{art() .'banner-analisis.png'}}" alt="" class="img-responsive pull-left">
     <div class="pull-left col-md-4 col-sm-4 col-xs-12">
     <br><br><br><br><br>
 		{{ Form::open(['route' => 'login_path']) }}
