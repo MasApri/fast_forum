@@ -1,0 +1,1 @@
+shiny::runApp('fast', port = 6962)
