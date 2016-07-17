@@ -159,6 +159,7 @@ Route::resource('topics', 'TopicsController');
 Route::resource('votes', 'VotesController');
 Route::resource('users', 'UsersController');
 Route::resource('analysis', 'AnalysisController');
+Route::resource('tableGenerator','TableGeneratorController');
 
 # ------------------ Replies ------------------------
 

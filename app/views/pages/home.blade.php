@@ -7,6 +7,8 @@
    @include('stats.fido')
 </div>
 
+@include('ads.ads')
+
 <div class="panel panel-default list-panel">
   <div class="panel-heading">
     <h3 class="panel-title text-left">
@@ -27,12 +29,7 @@
   </div>
 </div>
 
-<div class="panel panel-default node-panel col-md-12">
-<div class="panel-heading">
-    <h3 class="panel-title text-center">{{ lang('FAST Categories') }}</h3>
-  </div>
-  <br>
 <!-- Nodes Listing -->
-@include('ads.ads')
-</div>
+    @include('nodes.partials.list')
+
 @stop

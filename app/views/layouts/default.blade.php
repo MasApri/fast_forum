@@ -18,6 +18,10 @@ FAST  - Forum Analisis Statistik
 
         <link rel="stylesheet" href="{{ URL::asset('assets/css/'.Asset::styles('frontend')) }}">
         <link rel="stylesheet" href="{{ URL::asset('assets/css/bootflat.min.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}" /> 
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap-responsive.css') }}" />
+        
+        @yield('css')
 
         <link rel="shortcut icon" href="{{ URL::asset('/favicon.ico') }}"/>
 
