@@ -20,6 +20,7 @@ FAST  - Forum Analisis Statistik
         <link rel="stylesheet" href="{{ URL::asset('assets/css/bootflat.min.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}" /> 
         <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap-responsive.css') }}" />
+
         
         @yield('css')
 
@@ -36,6 +37,17 @@ FAST  - Forum Analisis Statistik
                 'token': '{{ csrf_token() }}',
             };
         </script>
+
+        <style type="text/css">
+        	body{
+        		    font-family: "cabin",Helvetica,Arial,sans-serif;
+    				font-size: 14px;
+    				line-height: 1.42857143;
+    				color: #333;
+    				background-color: #fff;
+    				height: initial;
+        	}
+        </style>
 
 	    @yield('styles')
 
