@@ -263,3 +263,19 @@ Route::group(['prefix' => 'messages'], function () {
     Route::get('{id}', ['as' => 'messages.show', 'uses' => 'MessagesController@show']);
     Route::put('{id}', ['as' => 'messages.update', 'uses' => 'MessagesController@update']);
 });
+
+
+/**
+* Table dinamis
+*
+*/
+
+Route::get('tabelDinamis',['as'=>'tableGen',"uses"=>'TableController@index']);
+
+Route::get('getVariabel/{topik}','TableController@getVariable');
+
+Route::get('getItemKategori/{kategori}','TableController@getItemKategori');
+
+Route::get('getFakta/{topik}/{variabel}/{regional}','TableController@getFakta');
+
+Route::get('getRegional/{topik}/{variabel}','TableController@getRegional');

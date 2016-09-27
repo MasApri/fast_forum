@@ -54,21 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'fast54',
-			'username'  => 'root',
-			'password'  => '',
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
-			'prefix'    => '',
-		),
-
-		'mysql2' => array(
-			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'fast_backup',
-			'username'  => 'root',
-			'password'  => '',
+			'host'      => '10.0.0.172',
+			'database'  => 'fastforum',
+			'username'  => 'jkd',
+			'password'  => 'pass@word3!',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

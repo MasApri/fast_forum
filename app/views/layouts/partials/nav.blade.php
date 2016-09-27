@@ -9,8 +9,7 @@
         <li class="{{ (Request::is('topics*') ? ' active' : '') }}"><a href="/">Home</a></li>
         <li class="{{ (Request::is('topics*') ? ' active' : '') }}"><a href="{{ route('topics.index') }}">{{ lang('Topics') }}</a></li>
         <li class="{{ (Request::is('topics*') ? ' active' : '') }}"><a href="{{ route('analysis.index')}}">Analysis</a></li>
-        <li class="{{ (Request::is('topics*') ? ' active' : '') }}"><a href="{{ route('tableGenerator.index')}}">Table Generator</a></li>
-        <li class="{{ (Request::is('topics*') ? ' active' : '') }}"><a href="{{ route('analysis.index')}}">Galery</a></li>
+        <li class="{{ (Request::is('topics*') ? ' active' : '') }}"><a href="{{ route('tableGen')}}">Table Generator</a></li>
         <!--<li class="{{ (Request::is('nodes/40') ? ' active' : '') }}"><a href="{{ route('nodes.show', 40) }}">{{ lang('Jobs') }}</a></li>
         -->
         <li class="{{ (Request::is('wiki*') ? ' active' : '') }}"><a href="{{ route('wiki') }}">{{ lang('Wiki') }}</a></li>

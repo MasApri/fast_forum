@@ -18,7 +18,7 @@
     </div>
 @endif
 <br><br><br>
-<h3 class="synup">Phphub++  Sign Up...</h3>
+<h3 class="synup">Fast-Forum  Sign Up...</h3>
 		{{ Form::open(['route' => 'register_path']) }}
 
                  <!-- Email Form Input -->
@@ -43,7 +43,7 @@
                     {{ Form::label('password2', 'Confirm Password:') }}
                     {{ Form::password('password2', ['class' => 'form-control', 'required' => '']) }}
                 </div>
-
+                <div><h4 class="synup">Topics Feed*</h4></div>
             <div class="form-group col-md-4">
             {{ Form::label('password', 'Category One:') }}
             <select class="selectpicker form-control" name="cat_one" >
@@ -92,6 +92,7 @@
             </select>
         </div>
 
+        <div><h4 class="synup">Sex*</h4></div>
         <div class="form-group col-md-12">
         {{ Form::radio('sex', 'male') }} <strong>Male</strong>
         {{ Form::radio('sex', 'female')}} <strong>Female</strong>

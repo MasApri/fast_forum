@@ -273,17 +273,17 @@ CREATE TABLE IF NOT EXISTS `nodes` (
 
 INSERT INTO `nodes` (`id`, `name`, `slug`, `parent_node`, `description`, `topic_count`, `created_at`, `updated_at`) VALUES
 (1, 'CATEGORIES', NULL, NULL, NULL, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(7, 'Health', 'health', 1, 'Latest job opportunities in the health sector', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(8, 'Football', 'football', 1, 'latest club transfers, betting and live scores', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(9, 'Tennis', 'tennis', 1, 'Follow the latest sporting activities in the world of tennis', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(10, 'Relationship', 'relationship', 1, 'Love is sweet, why not find the right match here', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(11, 'Business', 'business', 1, 'Meet people, create a team, build a network', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(12, 'Religion', 'religion', 1, 'Finding God should easy', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(13, 'Fashion', 'fashion', 1, 'get the latest tips and oportunities in the fashion industry', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(14, 'Housing', 'housing', 1, 'Real Estate deals and expenses', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(15, 'Job', 'job', 1, 'Be the first to get the latest job openings', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(16, 'Education', 'education', 1, 'Study abroad, get student visas', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(17, 'Law', 'law', 1, 'Law cases, coruption news, be informed', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(7, 'Association Rules', 'arules', 1, 'Discussion about Association Rules Analysis', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(8, 'BiClustering', 'bicluster', 1, 'Discussion about BiCluster Analysis', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(9, 'Classify', 'classify', 1, 'Discussion about Classification Analysis', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(10, 'Cluster', 'cluster', 1, 'Discussion about Cluster Analysis', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(11, 'Forcast', 'forcast', 1, 'Discussion about Data Forcasting', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(12, 'Multivariate', 'multivariate', 1, 'Discussion about Multivariate Analysis', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(13, 'Regression', 'regression', 1, 'Discussion about Regression Analysis', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(14, 'Survival', 'survival', 1, 'Discussion about Survival Analysis', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(15, 'Soft Computing', 'softComp', 1, 'Discussion about Soft Computing', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(16, 'Lounge', 'lounge', 1, 'Free area to discuss anything', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(17, 'Report', 'report', 1, 'Report bug to admin', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -719,7 +719,7 @@ INSERT INTO `users` (`id`, `github_id`, `github_url`, `email`, `name`, `remember
 (12, 0, '', 'eunice@yahoo.com', 'Eunice', 'Q5B8bxPq69CArmVm22kMwxWE1waFE8aWVnf7da81vPLM5LC5hZZguGBfHUJj', 0, '180-baby lather.jpg', 2, 0, 'Delta', 'Coybiz', 'fifi', 'www.fifi.com', 'were', 'i am classy', NULL, '2015-06-10 08:05:53', '2015-07-05 17:54:14', 0, '', 'Eunice', 'Amarachi', 'Eunice.Amarachi', '', '$2y$10$TWZRP/2dx/x2BQQQBjL/OeY4hX0qUyENNUt5OJ615/dcgbJy/kk7i', '9', '13', '15', 'female', 'y'),
 (13, 0, '', 'seyi@yahoo.com', 'Seyi', 'uZR0pMnKLz0nAMEswEGBqJiO72DfvrDtJEiLSMMT4s9SRKzYkKt2heqv4MSq', 0, '180-(_)hhj.jpg', 0, 0, 'Lagos', 'smith', 'seyikiki', 'www.smith.com', 'seyi', 'i am the greatest', NULL, '2015-06-10 08:43:13', '2015-06-13 23:33:08', 0, '', 'Seyi', 'Akogun', 'Seyi.Akogun', '', '$2y$10$IC/pdIeDl4CI/DrFR.5DE.XqgFVMQdhWZOUKXTEXi.yBPxyfkX0yq', '9', '12', '15', 'male', 'y'),
 (14, 0, '', 'aladin@yahoo.com', 'Aladin', 'KYxKfvFEt6t1aQBJlY2mvOzo1I4Oet2i6YMscpraGhziluvODecJ0iGQZ54P', 0, '180-brown.jpg', 0, 0, 'Kano', 'shell', 'musariro', 'www.shell.com', '2348', 'I love Jesus', NULL, '2015-07-09 18:46:51', '2015-07-10 11:40:54', 0, '', 'Aladin', 'Musa', 'Aladin.Musa', '', '$2y$10$iNBJKFMbYz5QeHH4L4rMM.Cvq9u/oYXNc1H5tPzULmLGUO6GTGUy2', '7', '8', '9', 'male', 'y'),
-(15, 0, '', 'melissa@yahoo.com', 'melissa', 'pRV3MyrqGycsqmgnJBK7pEnwCcx4FXzZ40Hd9f1rqZJRoZYOC89Z5P6ZIy8K', 0, '180-ban.png', 0, 0, 'Lagos', 'Chevron', 'melimeli', 'www.meli.com', '1234', 'i am a lover of God', NULL, '2015-07-10 11:41:56', '2015-07-10 11:56:43', 0, '', 'Melissa', 'coder', 'Melissa.coder', '', '$2y$10$xgrsBm4Wj1Kg.K29AkqzhO1WTW3hqklEQMw7Lrd7PS1dsRUkAIal2', '10', '11', '13', 'female', 'y');
+(15, 0, '', 'admin@fast.com', 'admin', 'pRV3MyrqGycsqmgnJBK7pEnwCcx4FXzZ40Hd9f1rqZJRoZYOC89Z5P6ZIy8K', 0, '180-ban.png', 0, 0, 'admin', 'admin', 'admin', '10.0.0.172', '1234', 'Admin', NULL, '2015-07-10 11:41:56', '2015-07-10 11:56:43', 0, '', 'Admin', 'admin', 'admin', '', '$2y$10$FMdLGlljuyl1kTJIkJ2vG.ulg2io1cKEhpBqtjxIS4RDbHLEsBzQy', '10', '11', '13', 'male', 'y');
 
 -- --------------------------------------------------------
 

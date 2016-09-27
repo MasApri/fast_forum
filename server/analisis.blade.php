@@ -3,16 +3,12 @@
 @section('content')
 <div class="panel" style=" height: 1200px;" >
 	@if(Auth::user())
-<<<<<<< HEAD
-        		<iframe src="http://127.0.0.1:6962?{{Auth::user()->remember_token;}}" id="iFrame1" width= "100%" height="100%">
-=======
-        		<iframe src="http://127.0.0.1:6962?token={{Auth::user()->remember_token;}}" width= "100%" height="100%">
->>>>>>> origin/master
+        		<iframe src="http://10.0.0.172:3838/fast-beta?{{Auth::user()->remember_token;}}" id="iFrame1" width= "100%" height="100%">
 
 				</iframe>
 	@else
     
-    <iframe src="http://127.0.0.1:6962?token=guest" id="iFrame1" width= "100%" height="100%">
+    <iframe src="http://10.0.0.172:3838/fast-beta?token=guest" id="iFrame1" width= "100%" height="100%">
 	<!-- <div class="row">
     <div  style="align-content: center;" class="col-md-6 col-sm-4 col-xs-4s span-12">
     	<center>
@@ -28,7 +24,6 @@
 </div>
 
 @stop
-<<<<<<< HEAD
 
 @section('scripts')
 <script type="application/javascript">
@@ -54,5 +49,3 @@ window.addEventListener('DOMContentReady', function(e) {
 </script>
 
 @stop
-=======
->>>>>>> origin/master

@@ -8,8 +8,8 @@
 <div class="row">
     <div class="col-md-4 col-sm-4 col-xs-4s">
     <div class="alert-success alert opabar text-right">
-       <p>If opportunity doesn't knock, build a door.</p>
-       <small>-Milton Berle</small> 
+       <p>Forum Analisis Statistik is one stop service data analysis</p>
+       <small>-Admin</small> 
     </div>
     </div>
 </div>
